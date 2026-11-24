@@ -659,13 +659,13 @@ int main()
 
 ### Output Unguided 1 :
 Output 1 (Alternatif 1)
-![Screenshot Output Unguided 1 Alternatif 1](https://github.com/raysarahma/109082500167_Struktur-Data_Modul08/blob/main/output-unguide/output-unguide01.png)
+![Screenshot Output Unguided 1 Alternatif 1](https://github.com/raysarahma/109082500167_Struktur-Data_Modul08/blob/main/output/output-alternatif01.png)
 
 Output 2 (Alternatif 2)
-![Screenshot Output Unguided 1 Alternatif 2](https://github.com/raysarahma/109082500167_Struktur-Data_Modul08/blob/main/output-unguide/output-unguide02.png)
+![Screenshot Output Unguided 1 Alternatif 2](https://github.com/raysarahma/109082500167_Struktur-Data_Modul08/blob/main/output/output-alternatif02.png)
 
 Output 3 (Alternatif 3)
-![Screenshot Output Unguided 1 Alternatif 3](https://github.com/raysarahma/109082500167_Struktur-Data_Modul08/blob/main/output-unguide/output-unguide03.png)
+![Screenshot Output Unguided 1 Alternatif 3](https://github.com/raysarahma/109082500167_Struktur-Data_Modul08/blob/main/output/output-alternatif03.png)
 
 penjelasan unguided 1 : Di unguided ini saya bikin ADT Queue pakai array, dibagi jadi queue.h, queue.cpp, sama main.cpp. Queue-nya punya array info isi 5 dan variabel head sama tail. head = -1 dan tail = -1 artinya queue kosong. Tiga alternatif saya taruh dalam satu queue.cpp, dan yang dipakai dipilih lewat angka di `#define ALTERNATIF` (1, 2, atau 3) pakai `#if`, jadi pas dicompile cuma satu alternatif yang aktif dan nggak bentrok nama fungsinya. createQueue, isEmptyQueue, sama printInfo dipakai bareng. Di modul tulisan main-nya ada yang kepotong dan kurang titik koma di baris cout, jadi saya benerin biar bisa dicompile.
 
